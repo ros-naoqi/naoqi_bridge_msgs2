@@ -1,0 +1,2 @@
+string memory_key
+string data
