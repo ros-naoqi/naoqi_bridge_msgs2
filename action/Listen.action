@@ -1,5 +1,20 @@
+# Action to perform one shot of speech recognition.
+# Listens to the speech and tries to recognize expected utterances.
+# If speech-to-text is supported, unexpected results may be returned.
+
+# Set of strings that are expected to be heard.
+# Used to pre-configure the speech recognition.
+# Can be left empty.
 string[] expected
+
+# The language in which to listen.
+# If empty, the current language is used.
+string language ""
 ---
+# What was heard.
+# May match expected utterances.
+# Results are ordered by decreasing confidence.
 string[] result
 ---
+# If supported, partial results may be sent during the recognition.
 string[] partial_result
