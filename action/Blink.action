@@ -3,7 +3,7 @@
 # Feedback: last blinked colour
 std_msgs/ColorRGBA[] colors
 std_msgs/ColorRGBA bg_color
-duration blink_duration
+builtin_interfaces/Duration blink_duration
 float32 blink_rate_mean
 float32 blink_rate_sd
 ---

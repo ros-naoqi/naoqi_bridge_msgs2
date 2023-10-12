@@ -41,8 +41,8 @@ FILE(GLOB ACTION_FILES RELATIVE
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${MSG_FILES}
   ${SRV_FILES}
-  ${ACION_FILES}
+  ${ACTION_FILES}
   DEPENDENCIES ${MESSAGE_DEPS})
- 
+
 ament_export_dependencies(${MESSAGE_DEPS})
 ament_package()
