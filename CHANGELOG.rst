@@ -2,6 +2,13 @@
 Changelog for package naoqi_bridge_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update maintainers
+* New "Listen" action
+* Restore action messages
+* Contributors: Victor Paléologue
+
 2.0.0 (2022-09-13)
 ------------------
 * Update README, add buildfarm status badges
