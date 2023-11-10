@@ -2,8 +2,8 @@
 Changelog for package naoqi_bridge_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.1.0 (2023-11-10)
+------------------
 * Update maintainers
 * New "Listen" action
 * Restore action messages
