@@ -2,6 +2,12 @@
 Changelog for package naoqi_bridge_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+
+Forthcoming
+-----------
+* remove reference to naoqi_msgs as rosdep choke on it
+* Contributors: Séverin Lemaignan
+
 2.1.1 (2026-06-16)
 ------------------
 * Replace geometry_msgs/Pose2D with local Pose2D (removed in ROS 2 Rolling)
