@@ -3,8 +3,8 @@ Changelog for package naoqi_bridge_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-Forthcoming
------------
+2.1.3 (2026-10-06)
+------------------
 * remove reference to naoqi_msgs as rosdep choke on it
 * Contributors: Séverin Lemaignan
 
